@@ -18,11 +18,11 @@
       <div id="formOne" class="row well">
         <div class="row well">
           <p>Please choose your favorite drink</p>
-          <select class="form-control" id="beverage">
-            <option>Coffee</option>
-            <option>Tea</option>
-            <option>Whiskey</option>
-            <option>Water</option>
+          <select class="form-control" id="drink">
+            <option value="coffee">Coffee</option>
+            <option value="tea">Tea</option>
+            <option value="whiskey">Whiskey</option>
+            <option value="water">Water</option>
           </select>
         </div>
 
@@ -30,19 +30,19 @@
           <p>Please choose your preferred flavor.</p>
           <div class="radio">
             <label>
-              <input type="radio" value="sweet" checked>
+              <input type="radio" name="flavor" value="sweet" checked>
               Sweet
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" value="Salty">
+              <input type="radio" name="flavor" value="Salty">
               Salty
             </label>
           </div>
           <div class="radio">
             <label>
-              <input type="radio" value="sour">
+              <input type="radio" name="flavor" value="sour">
               Sour
             </label>
           </div>
@@ -56,11 +56,12 @@
         <div class="form-group row well">
           <label for="color">Use the selector to pick your favorite color?</label>
           <input id="color" class="form-control" type="color">
+          <button type="submit" class="btn btn-info">Submit</button>
         </div>
       </div>
 <!--Return-->
       <div id="answers">
-        
+        <p>Some answers should appear here.</p>
       </div>
     </div>
   </body>
