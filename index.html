@@ -14,53 +14,54 @@
       <div class="row well">
         <h1>Please Take The Survey</h1>
       </div>
-
-      <div id="formOne" class="row well">
+      <form id="formOne">
         <div class="row well">
-          <p>Please choose your favorite drink</p>
-          <select class="form-control" id="drink">
-            <option value="coffee">Coffee</option>
-            <option value="tea">Tea</option>
-            <option value="whiskey">Whiskey</option>
-            <option value="water">Water</option>
-          </select>
-        </div>
-
-        <div class="row well">
-          <p>Please choose your preferred flavor.</p>
-          <div class="radio">
-            <label>
-              <input type="radio" name="flavor" value="sweet" checked>
-              Sweet
-            </label>
+          <div class="row well">
+            <p>Please choose your favorite drink</p>
+            <select class="form-control" id="drink">
+              <option value="coffee">Coffee</option>
+              <option value="tea">Tea</option>
+              <option value="whiskey">Whiskey</option>
+              <option value="water">Water</option>
+            </select>
           </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="flavor" value="Salty">
-              Salty
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="flavor" value="sour">
-              Sour
-            </label>
-          </div>
-        </div>
 
-        <div class="form-group row well">
-          <label for="born">Date of birth:</label>
-          <input id="born" class="form-control" type="date">
-        </div>
+          <div class="row well">
+            <p>Please choose your preferred flavor.</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="flavor" value="sweet" checked>
+                Sweet
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="flavor" value="Salty">
+                Salty
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="flavor" value="sour">
+                Sour
+              </label>
+            </div>
+          </div>
 
-        <div class="form-group row well">
-          <label for="color">Use the selector to pick your favorite color?</label>
-          <input id="color" class="form-control" type="color">
-          <button type="submit" class="btn btn-info">Submit</button>
+          <div class="form-group row well">
+            <label for="born">Date of birth:</label>
+            <input id="born" class="form-control" type="date">
+          </div>
+
+          <div class="form-group row well">
+            <label for="color">Use the selector to pick your favorite color?</label>
+            <input id="color" class="form-control" type="color">
+            <button type="submit" class="btn btn-info">Submit</button>
+          </div>
         </div>
-      </div>
+      </form>
 <!--Return-->
-      <div id="answers">
+      <div id="answers" class="well">
         <p>Some answers should appear here.</p>
       </div>
     </div>
